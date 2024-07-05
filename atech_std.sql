@@ -51,8 +51,6 @@ CREATE TABLE IF NOT EXISTS `tb_parts_item` (
   KEY `part_no` (`part_no`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='제품정보';
 
--- 테이블 데이터 atech_std.tb_parts_item:~0 rows (대략적) 내보내기
-DELETE FROM `tb_parts_item`;
 /*!40000 ALTER TABLE `tb_parts_item` DISABLE KEYS */;
 /*!40000 ALTER TABLE `tb_parts_item` ENABLE KEYS */;
 
